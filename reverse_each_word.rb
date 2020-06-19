@@ -1,8 +1,8 @@
 def reverse_each_word(sentence1)
-  words = sentence.split(" ")
-  reversed_sentence = []
+  words = sentence1.split(" ")
+  reversed_sentence1 = []
   words.collect do |word|
-    eversed_sentence << word.reverse
+    reversed_sentence1 << word.reverse
 end
-reversed_sentence.join(" ")
+reversed_sentence1.join(" ")
 end
